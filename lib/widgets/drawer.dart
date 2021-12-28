@@ -23,6 +23,7 @@ class MyDrawer extends StatelessWidget {
                 ),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(imgUrl),
+                  // radius: ,
                 ),
               ),
             ),
@@ -54,11 +55,11 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(
-                CupertinoIcons.mail,
+                CupertinoIcons.mail_solid,
                 color: Colors.white,
               ),
               title: Text(
-                "Email",
+                "Email Me",
                 textScaleFactor: 1.3,
                 style: TextStyle(
                   color: Colors.white,

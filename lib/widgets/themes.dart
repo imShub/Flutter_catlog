@@ -9,7 +9,7 @@ class MyTheme {
         color: Colors.white,
         elevation: 0.0,
         iconTheme: IconThemeData(color: Colors.black),
-        titleTextStyle: TextStyle(color: Colors.black, fontSize: 20),
+        titleTextStyle: TextStyle(color: Colors.black),
       ));
 
   static ThemeData darktheme(BuildContext context) => ThemeData(
