@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final TestList = List.generate(30, (index) => CatalogModel.items[0]);
+    final TestList = List.generate(3, (index) => CatalogModel.items[0]);
 
     return Scaffold(
       appBar: AppBar(
